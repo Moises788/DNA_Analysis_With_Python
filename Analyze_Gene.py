@@ -1,9 +1,9 @@
 #Open the DNA.
-inp = open("Datascience\Dates\Bacteria.fasta").read() 
-inph = open("Datascience\Dates\human.fasta").read()
+inp = open("Dates\Bacteria.fasta").read() 
+inph = open("Dates\human.fasta").read()
 #Create a html arquive of the date.
-out = open("Datascience\Dates\Bacteria.html", "w") 
-outh = open("Datascience\Dates\human.html", "w")
+out = open("Dates\Bacteria.html", "w") 
+outh = open("Dates\human.html", "w")
 
 #begin the counter of the only pars of A, T, C, G.
 cont = {} 
